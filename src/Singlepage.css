@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@300&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.full-page-containers{
+    width:100%;
+    /* height:1000vh; */
+   
+}
+.Aboutus-first-header-section{
+    position:fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height:50px;
+    width:100%;
+    z-index: 10;
+    background-color:#FFFFFF ;
+}
+
+.Aboutuslogo-icon{
+    width:100px;
+    height:50px;
+    /* color:red; */
+    /* margin:10px; */
+   
+    margin-left:10px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* padding:20px; */
+}
+
+.flexbox-container{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flexbox-containers-two{
+
+}
+.item-sections{
+  border: 1px solid lightgrey;
+  box-shadow: 0px 0px 0.6px 0.6px lightgrey;
+  border-radius: 15px;
+  
+  /* width:30%; */
+  /* height:100%; */
+  /* margin-top: 100px; */
+  text-align: center;
+  align-items: center;
+  padding:30px;
+  margin-top: 30px;
+  /* margin:20px; */
+
+}
+
+.item-sectionss{
+  border: 1px solid lightgrey;
+  box-shadow: 0px 0px 0.6px 0.6px lightgrey;
+  border-radius: 15px;
+  /* width:30%; */
+  /* height:10%; */
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  padding:30px;
+
+}
+
+/* .flexbox-container{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  margin: auto;
+  flex-wrap: wrap;
+  /* we can give anyting here based on mocks */
+  /* justify-content: space-around; */
+
+  /* margin-top: 100px; */
+/* } */ */
+.item-section{
+  /* flex-basis:25%; */
+      border: 1px solid black !important;
+      border-radius: 8px 8px 8px 8px;
+      margin:10px 10px;
+      box-shadow: 0px 0px 10px 3px lightgrey;
+    text-align: center;
+
+}
+.text-container{
+  text-align: center;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.contact-information{
+  margin-top: 40px;
+}
+
