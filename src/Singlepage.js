@@ -104,7 +104,7 @@ function Singlepage() {
   </div>
              <div class="container">
     {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>Mycovation</b>is an alternative food products company transforming mycelium (the root system of mushrooms) into exciting food products. </p> 
+    <p><b>Mycovation</b> is an alternative food products company transforming mycelium (the root system of mushrooms) into exciting food products. </p> 
   </div>
 </div>
 
@@ -129,7 +129,7 @@ function Singlepage() {
  <img src={untact} alt="Avatar" style={{width:"100%"}} onClick={handleuntact}/>
              <div class="container">
     {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>Untact</b>With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p> 
+    <p><b>Untact</b> With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p> 
   </div>
 </div>
 
