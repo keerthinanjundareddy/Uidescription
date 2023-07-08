@@ -28,10 +28,7 @@ function Singlepage() {
     window.open('http://ayatana.world/', '_blank');
   }
 
-  function handleuntact(){
-    window.open('', '_blank');
-  }
-
+ 
   function handlemycovation(){
     window.open('https://www.mycovation.asia/', '_blank');
   }
@@ -126,7 +123,7 @@ function Singlepage() {
 
 
 <div class="card">
- <img src={untact} alt="Avatar" style={{width:"100%"}} onClick={handleuntact}/>
+ <img src={untact} alt="Avatar" style={{width:"100%"}} />
              <div class="container">
     {/* <h4><b>John Doe</b></h4>  */}
     <p><b>Untact</b> With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p> 
