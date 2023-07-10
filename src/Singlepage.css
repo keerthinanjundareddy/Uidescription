@@ -187,3 +187,13 @@ p{
 .card-container-section-top{
   margin-top:110px ;
 }
+
+
+
+.copyright-text{
+  letter-spacing: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+  color:#595959;
+}

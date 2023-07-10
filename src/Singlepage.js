@@ -187,7 +187,7 @@ function Singlepage() {
                      {/* </div> */}
         
                      {/* <div> */}
-                     <div style={{paddingLeft:"25px",paddingRight:"25px"}}> COPYRIGHT © 2021 RENERGII VENTURES - ALL RIGHTS RESERVED.</div> 
+                     <div className='copyright-text'> COPYRIGHT © 2021 RENERGII VENTURES - ALL RIGHTS RESERVED.</div> 
                      {/* </div> */}
         
         
