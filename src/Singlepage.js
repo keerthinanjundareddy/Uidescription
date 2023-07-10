@@ -7,6 +7,7 @@ import Ayatana from '../src/Images/Ayatana_logo_final 2.png'
 import mycovation from '../src/Images/cr=w_365,h_365.png'
 import feedworkz from '../src/Images/rs=w_365,h_183,cg_true (1).png'
 import untact from '../src/Images/unta.png'
+import styletribute from '../src/Images/STYLE.png'
 
 
 import facebook from '../src/Images/facebook-round-color-2021-icon.png'
@@ -45,6 +46,10 @@ function Singlepage() {
   function handleinstagram(){
     window.open('https://www.linkedin.com/company/renergii', '_blank');
   }
+
+  // function handlestyletribute(){
+  //   window.open('https://www.linkedin.com/company/renergii', '_blank');
+  // }
 
 
   return (
@@ -112,6 +117,17 @@ function Singlepage() {
     <p><b>FeedWerkz</b> is a sustainable nutrients startup delivering custom-blended proteins and other additives to the pet food, aquafeed, pharma and human wellness industries</p> 
   </div>
 </div>
+
+
+<div class="card">
+ <img src={styletribute} alt="Avatar" style={{width:"100%"}}   />
+             <div class="container">
+    {/* <h4><b>John Doe</b></h4>  */}
+    <p><b>StyleTribute </b>StyleTribute is an online luxury resale platform where individuals can buy and sell pre-owned designer fashion items.</p> 
+  </div>
+</div>
+
+
 
 <div class="card">
 <img src={Ayatana} alt="Avatar" style={{width:"100%"}}  onClick={handleAyatana} />
