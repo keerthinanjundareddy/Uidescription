@@ -158,6 +158,44 @@ function Singlepage() {
 
 
 
+          
+
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+
+            <div style={{display:"flex",flexDirection:"row",gap:"25px"}}>
+                  
+          <div>
+              <img src={facebook} alt="Avatar" width={20} height={20}   />
+             </div>
+
+
+             <div >
+              <img src={instagram} alt="Avatar"  width={20} height={20}   />
+             </div>
+
+             </div>
+ </div>
+
+
+
+
+
+ <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+                  {/* <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}> */}
+                      {/* <img src={untact} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   /> */}
+                     {/* </div> */}
+        
+                     {/* <div> */}
+                     <div style={{paddingLeft:"25px",paddingRight:"25px"}}> COPYRIGHT © 2021 RENERGII VENTURES - ALL RIGHTS RESERVED.</div> 
+                     {/* </div> */}
+        
+        
+        
+                  </div>
+
+
+
 
          
 
