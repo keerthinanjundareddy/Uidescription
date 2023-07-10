@@ -1,12 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@300&display=swap'); */
 
  
-  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap'); */
+
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital@0;1&display=swap'); */
+
+
+  /* <style> */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;400&display=swap');
+/* </style> */
+
 
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+  
+}
+.hello{
+  font-weight: 100;
+  /* font-style: italic; */
+  /* margin: 150px; */
+}
+.para{
+  font-weight: 400;
+  /* margin: 200px; */
 }
 
 .full-page-containers{
@@ -15,8 +36,8 @@
    
 }
 .Aboutus-first-header-section{
-    /* position:fixed; */
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+    position:fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     height:100px;
     width:100%;
     z-index: 10;
@@ -39,7 +60,7 @@
 .flexbox-container{
     display:flex;
     flex-direction: column;
-    gap:80px;
+    gap:50px;
     justify-content: center;
     align-items: center;
 
@@ -50,7 +71,7 @@
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   /* border:1px solid black; */
   /* transition: 0.3s; */
-  width: 90%;
+  width: 50%;
  
 }
 p{
@@ -60,8 +81,8 @@ p{
   color:#5e5e5e
 }
 .card-container{
-  width: 90%;
-  /* border:1px solid black; */
+  width: 100%;
+  border:1px solid black;
   margin-top: 50px;
 }
 
@@ -129,7 +150,7 @@ p{
   .card {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* transition: 0.3s; */
-    width: 50%;
+    /* width: 50%; */
   }
 
 
@@ -137,14 +158,14 @@ p{
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* border:1px solid black; */
     /* transition: 0.3s; */
-    width: 50%;
-    margin-top: 110px;
+    /* width: 50%; */
+    /* margin-top: 110px; */
   }
 
 
   .card-container{
     width: 90%;
-    /* border:1px solid black; */
+    border:1px solid black;
     margin-top: 20px;
   }
 
@@ -158,4 +179,11 @@ p{
   }
   
   
+}
+
+
+
+
+.card-container-section-top{
+  margin-top:110px ;
 }

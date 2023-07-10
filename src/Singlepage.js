@@ -60,125 +60,113 @@ function Singlepage() {
                  <img src={ClothingLogo} alt="logo" className='Aboutuslogo-icon'  />
         </div>
 
-      
-        {/* <div style={{color:"black"}}>WHAT'S BUILDING</div> */}
+        
 
-        <div className='flexbox-container'>
-
-
-        <div class="card-container">
-           {/* <img src={urbantiller} alt="Avatar" style={{width:"100%"}} /> */}
-             {/* <div class="container"> */}
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p className='heading-tag'><b>WHAT'S BUILDING</b> </p> 
-  </div>
-{/* </div> */}
-
-
-         
-
-
-       
-
-
-
-
-<div class="card">
-
-  <div>
-  
-    <img src={urbantiller} alt="Avatar" style={{width:"100%"}} onClick={handleurbantiller} />
-  
-  </div>
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-   
-    <p><b>Urban Tiller</b> is a full-stack AgTech company building a direct-to-consumer platform to deliver #Fresh, #Safe and #SustainablyGrown produce  </p> 
-    
-  </div>
-</div>
-
-
-
-<div class="card">
-
-  <div> <img src={mycovation} alt="Avatar" style={{width:"100%"}} onClick={handlemycovation} />
-  </div>
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>Mycovation</b> is an alternative food products company transforming mycelium (the root system of mushrooms) into exciting food products. </p> 
-  </div>
-</div>
-
-<div class="card">
- <img src={feedworkz} alt="Avatar" style={{width:"100%"}}  onClick={handleFeedworkz} />
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>FeedWerkz</b> is a sustainable nutrients startup delivering custom-blended proteins and other additives to the pet food, aquafeed, pharma and human wellness industries</p> 
-  </div>
-</div>
-
-
-<div class="card">
- <img src={styletribute} alt="Avatar" style={{width:"100%"}}   />
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>StyleTribute </b>StyleTribute is an online luxury resale platform where individuals can buy and sell pre-owned designer fashion items.</p> 
-  </div>
-</div>
-
-
-
-<div class="card">
-<img src={Ayatana} alt="Avatar" style={{width:"100%"}}  onClick={handleAyatana} />
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>Ayatana</b> A retail experience company which is aimed at redefining the way retail is experienced. Ayatana focuses around Phygital at retail stores giving some interesting immersive product experience for the consumers</p> 
-  </div>
-</div>
-
-
-<div class="card">
- <img src={untact} alt="Avatar" style={{width:"100%"}} />
-             <div class="container">
-    {/* <h4><b>John Doe</b></h4>  */}
-    <p><b>Untact</b> With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p> 
-  </div>
-</div>
-
-
-<div class="card">
-           {/* <img src={untact} alt="Avatar" style={{width:"100%"}} /> */}
-             <div class="container-twos">
-              <div>
-             <img src={facebook} alt="Avatar" width={30} height={30} onClick={handlefacebook}  />
+             <div className='flexbox-container'>
+          <div className='card-container-section-top' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={urbantiller} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
              </div>
+
              <div>
-             <img src={instagram} alt="Avatar"  width={30} height={30} onClick={handleinstagram} />
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>Urban Tiller</b> is a full-stack AgTech company building a direct-to-consumer platform to deliver #Fresh, #Safe and #SustainablyGrown produce.</p> 
              </div>
-    {/* <h4><b>John Doe</b></h4>  */}
-    {/* <p><b>Untact</b>With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p>  */}
-  </div>
-</div>
-
-
-<div class="card">
-           {/* <img src={untact} alt="Avatar" style={{width:"100%"}} /> */}
-             <div class="container-threes">
-            <div>COPYRIGHT © 2021 RENERGII VENTURES - ALL RIGHTS RESERVED.</div> 
-             {/* <img src={facebook} alt="Avatar" /> */}
-             {/* <img src={instagram} alt="Avatar" /> */}
-    {/* <h4><b>John Doe</b></h4>  */}
-    {/* <p><b>Untact</b>With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p>  */}
-  </div>
-</div>
 
 
 
           </div>
 
 
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={mycovation} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+             </div>
+
+             <div>
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>Mycovation</b> is an alternative food products company transforming mycelium (the root system of mushrooms) into exciting food products.</p>  
+             </div>
+
+
+
+          </div>
+
+
+
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={feedworkz} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+             </div>
+
+             <div>
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>FeedWerkz</b> is a sustainable nutrients startup delivering custom-blended proteins and other additives to the pet food, aquafeed, pharma and human wellness industries.</p>  
+             </div>
+
+
+
+          </div>
+
+
+
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={styletribute} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+             </div>
+
+             <div>
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>StyleTribute </b>StyleTribute is an online luxury resale platform where individuals can buy and sell pre-owned designer fashion items.</p>  
+             </div>
+
+
+
+          </div>
+
+
+
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={Ayatana} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+             </div>
+
+             <div>
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>Ayatana</b> A retail experience company which is aimed at redefining the way retail is experienced. Ayatana focuses around Phygital at retail stores giving some interesting immersive product experience for the consumers</p> 
+             </div>
+
+
+
+          </div>
+
+
+
+          <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+                  
+          <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
+              <img src={untact} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+             </div>
+
+             <div>
+             <p style={{paddingLeft:"25px",paddingRight:"25px"}}><b>Untact</b> With a powerful technology infrastructure, artificial intelligence, and readily available telecallers, our outsourcing platform effortlessly handles your outbound calling operations.</p> 
+             </div>
+
+
+
+          </div>
+
+
+
+
+         
+
+          </div>
+
+
+
               </div>
+             
    
       
     </>
