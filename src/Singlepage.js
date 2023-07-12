@@ -66,7 +66,7 @@ function Singlepage() {
           <div className='card-container-section-top' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
                   
           <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
-              <img src={urbantiller} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+              <img src={urbantiller} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}} onClick={handleurbantiller}  />
              </div>
 
              <div>
@@ -81,7 +81,7 @@ function Singlepage() {
           <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
                   
           <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
-              <img src={mycovation} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+              <img src={mycovation} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}} onClick={handlemycovation}  />
              </div>
 
              <div>
@@ -97,7 +97,7 @@ function Singlepage() {
           <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
                   
           <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
-              <img src={feedworkz} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+              <img src={feedworkz} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}} onClick={handleFeedworkz}    />
              </div>
 
              <div>
@@ -113,7 +113,7 @@ function Singlepage() {
           <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
                   
           <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
-              <img src={styletribute} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+              <img src={styletribute} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}    />
              </div>
 
              <div>
@@ -129,7 +129,7 @@ function Singlepage() {
           <div className='card-container-section' style={{justifyContent:"center",alignContent:"center",alignItems:"center"}}>
                   
           <div style={{width:"40%",height:"40%",textAlign:"center",marginLeft:"30%"}}>
-              <img src={Ayatana} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}}   />
+              <img src={Ayatana} alt="Avatar" style={{width:"100%",height:"100%",objectFit:"cover"}} onClick={handleAyatana}  />
              </div>
 
              <div>
@@ -165,12 +165,12 @@ function Singlepage() {
             <div style={{display:"flex",flexDirection:"row",gap:"25px"}}>
                   
           <div>
-              <img src={facebook} alt="Avatar" width={20} height={20}   />
+              <img src={facebook} alt="Avatar" width={30} height={30}  onClick={handlefacebook}   />
              </div>
 
 
              <div >
-              <img src={instagram} alt="Avatar"  width={20} height={20}   />
+              <img src={instagram} alt="Avatar"  width={30} height={30} onClick={handleinstagram}  />
              </div>
 
              </div>
